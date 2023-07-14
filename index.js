@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://post-cloudinary.vercel.app",
+    origin: "*",
   })
 );
 
